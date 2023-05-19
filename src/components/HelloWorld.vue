@@ -107,9 +107,9 @@ export default {
   methods: {
     async getListaPessoas() {
 
-      const token = '9d66326f76faa71872b0ebec30f27e4e20539e7b'
+      const token = 'TOKEN-DA-SUA-API-SE-REQUER-AUTORIZAÇÃO'
 
-      axios.get('http://orolglass.managerglass:8000/api/v1/pessoas/', {
+      axios.get('URL-DA-SUA-API-LISTA-PESSOA', {
         headers: {
           'Authorization': `Token ${token}`
         }
